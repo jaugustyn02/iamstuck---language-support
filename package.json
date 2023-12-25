@@ -1,0 +1,25 @@
+{
+  "name": "iamstuck---language-support",
+  "displayName": "Iamstuck - Language Support",
+  "description": "Iamstuck syntax highlighting for VS Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "iamstuck",
+      "aliases": ["Iamstuck", "iamstuck"],
+      "extensions": [".stuck"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "iamstuck",
+      "scopeName": "main.stuck",
+      "path": "./syntaxes/iamstuck.tmLanguage.json"
+    }]
+  }
+}
