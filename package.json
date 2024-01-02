@@ -2,7 +2,8 @@
   "name": "iamstuck---language-support",
   "displayName": "Iamstuck - Language Support",
   "description": "Iamstuck syntax highlighting for VS Code",
-  "version": "0.0.1",
+  "icon": "images/logo-iamstuck.png",
+  "version": "1.6.9",
   "engines": {
     "vscode": "^1.85.0"
   },
