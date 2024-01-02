@@ -3,9 +3,14 @@
   "displayName": "Iamstuck - Language Support",
   "description": "Iamstuck syntax highlighting for VS Code",
   "icon": "images/logo-iamstuck.png",
+  "publisher": "jaugustyn02",
   "version": "1.6.9",
   "engines": {
     "vscode": "^1.85.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jaugustyn02/iamstuck---language-support.git"
   },
   "categories": [
     "Programming Languages"
